@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+.nentrang{
+    background-image: linear-gradient(to bottom right, #B0E0E6, #FFC0CB); 
+    display: flex;
+    height: 100vh;
+    text-align: center;
+}
+
+.formdangnhap{
+    background-image: linear-gradient(0deg, #87CEFA, #B7B7B7);
+    width: 60opx;
+    margin: auto;
+    position: relative;
+    animation-name: growth;
+    animation-duration: 1s;  
+    animation-fill-mode: forwards;
+}
+
+h3{
+    font-size: 125%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.rounded{
+    margin-top: 4vh;
+    margin-bottom: 2vh;
+    width: 100%;
+    height: auto;
+}
+
+.form-control{
+    width: 30vh;
+    margin: auto;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.invalid-feedback{
+    text-align: center;
+}
+
+.valid-feedback{
+    text-align: center;
+}
+
+.btn{
+    font-size: 15px;
+    text-align: center;
+}
+
+img{
+    max-width:40%; 
+    height:auto; 
+    margin: auto;
+}
+
+.form-group_1{
+    justify-content: center;
+    display: flex;
+}
+
+.chon_2, .chon_1{
+    color: black; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    font-size: 17px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.chon_2{
+    margin-left: 10px;
+}
+
+@keyframes growth {
+    from {top: -700px;}
+    to {top: 0px;}
+}

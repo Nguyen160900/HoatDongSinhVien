@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+  <display-name>HoatDong</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+<servlet>
+	<servlet-name>LoginController</servlet-name>
+	<servlet-class>Controllers.LoginController</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>LoginController</servlet-name>
+	<url-pattern>/Login</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>HoatDongController</servlet-name>
+	<servlet-class>Controllers.HoatDongController</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>HoatDongController</servlet-name>
+	<url-pattern>/DKHoatDong</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>HoatDongController</servlet-name>
+	<servlet-class>Controllers.HoatDongController</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>HoatDongController</servlet-name>
+	<url-pattern>/DKHoatDong/DangKyHoatDong_1</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>HoatDongController</servlet-name>
+	<servlet-class>Controllers.HoatDongController</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>HoatDongController</servlet-name>
+	<url-pattern>/DKHoatDong/DangKyHoatDong_2</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>LogoutController</servlet-name>
+	<servlet-class>Controllers.LogoutController</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>LogoutController</servlet-name>
+	<url-pattern>/Logout</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>QLHoatDongController</servlet-name>
+	<servlet-class>Controllers.QLHoatDongController</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>QLHoatDongController</servlet-name>
+	<url-pattern>/QLHoatDong</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>QLHoatDongController</servlet-name>
+	<servlet-class>Controllers.QLHoatDongController</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>QLHoatDongController</servlet-name>
+	<url-pattern>/QLHoatDong/insert</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>QLHoatDongController</servlet-name>
+	<servlet-class>Controllers.QLHoatDongController</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>QLHoatDongController</servlet-name>
+	<url-pattern>/QLHoatDong/update</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>QLHoatDongController</servlet-name>
+	<servlet-class>Controllers.QLHoatDongController</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>QLHoatDongController</servlet-name>
+	<url-pattern>/QLHoatDong/delete</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>QLHoatDongController</servlet-name>
+	<servlet-class>Controllers.QLHoatDongController</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>QLHoatDongController</servlet-name>
+	<url-pattern>/QuanLyHoatDong_TimKiem</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>QLHoatDongController</servlet-name>
+	<servlet-class>Controllers.QLHoatDongController</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>QLHoatDongController</servlet-name>
+	<url-pattern>/QLHoatDong_LamMoi</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>DSDangKyHDController</servlet-name>
+	<servlet-class>Controllers.DSDangKyHDController</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>DSDangKyHDController</servlet-name>
+	<url-pattern>/DSDangKyHD</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>DSDangKyHDController</servlet-name>
+	<url-pattern>/DSDangKyHD_LamMoi</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>DSDangKyHDController</servlet-name>
+	<url-pattern>/DSDangKyHD/delete</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>DSDangKyHDController</servlet-name>
+	<url-pattern>/DSDangKyHD/update</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>DSDangKyHDController</servlet-name>
+	<url-pattern>/DSDangKyHD_thamgia</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>DSDangKyHDController</servlet-name>
+	<url-pattern>/DSDangKyHD_khongthamgia</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>DSDangKyHDController</servlet-name>
+	<url-pattern>/DSDangKyHD_xoa</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>DSDangKyHDController</servlet-name>
+	<url-pattern>/DSDangKyHD_Loc</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>ThongTinTaiKhoanController</servlet-name>
+	<servlet-class>Controllers.ThongTinTaiKhoanController</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>ThongTinTaiKhoanController</servlet-name>
+	<url-pattern>/ThongTinTaiKhoan</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>ThongTinTaiKhoanController</servlet-name>
+	<servlet-class>Controllers.ThongTinTaiKhoanController</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>ThongTinTaiKhoanController</servlet-name>
+	<url-pattern>/ThongTinTaiKhoan_admin</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>QLHoatDongLopController</servlet-name>
+	<servlet-class>Controllers.QLHoatDongLopController</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>QLHoatDongLopController</servlet-name>
+	<url-pattern>/QuanLyHoatDongLop</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>QLHoatDongLopController</servlet-name>
+	<servlet-class>Controllers.QLHoatDongLopController</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>QLHoatDongLopController</servlet-name>
+	<url-pattern>/QuanLyHoatDongLop/LamMoi</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>QuanLySinhVienDKHDLopController</servlet-name>
+	<servlet-class>Controllers.QuanLySinhVienDKHDLopController</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>QuanLySinhVienDKHDLopController</servlet-name>
+	<url-pattern>/QuanLySinhVienDKHDLop</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>QuanLySinhVienDKHDLopController</servlet-name>
+	<servlet-class>Controllers.QuanLySinhVienDKHDLopController</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>QuanLySinhVienDKHDLopController</servlet-name>
+	<url-pattern>/QuanLySinhVienDKHDLop/insert</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>QuanLySinhVienDKHDLopController</servlet-name>
+	<servlet-class>Controllers.QuanLySinhVienDKHDLopController</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>QuanLySinhVienDKHDLopController</servlet-name>
+	<url-pattern>/QuanLySinhVienDKHDLop/delete1</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>QuanLySinhVienDKHDLopController</servlet-name>
+	<servlet-class>Controllers.QuanLySinhVienDKHDLopController</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>QuanLySinhVienDKHDLopController</servlet-name>
+	<url-pattern>/QuanLySinhVienDKHDLop/delete2</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>QuanLySinhVienDKHDLopController</servlet-name>
+	<servlet-class>Controllers.QuanLySinhVienDKHDLopController</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>QuanLySinhVienDKHDLopController</servlet-name>
+	<url-pattern>/QuanLySinhVienDKHDLop/update</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>DMKController</servlet-name>
+	<servlet-class>Controllers.DMKController</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>DMKController</servlet-name>
+	<url-pattern>/DoiMatKhau</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>DMKController</servlet-name>
+	<servlet-class>Controllers.DMKController</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>DMKController</servlet-name>
+	<url-pattern>/DoiMatKhau_update</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>DMKController</servlet-name>
+	<servlet-class>Controllers.DMKController</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>DMKController</servlet-name>
+	<url-pattern>/DoiMatKhau_admin</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>DMKController</servlet-name>
+	<servlet-class>Controllers.DMKController</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>DMKController</servlet-name>
+	<url-pattern>/DoiMatKhau_admin_update</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>LoginController</servlet-name>
+	<servlet-class>Controllers.LoginController</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>LoginController</servlet-name>
+	<url-pattern>/LoginAdmin</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>LoginController</servlet-name>
+	<servlet-class>Controllers.LoginController</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>LoginController</servlet-name>
+	<url-pattern>/LoginUser</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>DSHoatDongController</servlet-name>
+	<servlet-class>Controllers.DSHoatDongController</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>DSHoatDongController</servlet-name>
+	<url-pattern>/DanhSachHoatDong</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>DSHoatDongController</servlet-name>
+	<servlet-class>Controllers.DSHoatDongController</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>DSHoatDongController</servlet-name>
+	<url-pattern>/DanhSachHoatDong/LamMoi</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>GopYController</servlet-name>
+	<servlet-class>Controllers.GopYController</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>GopYController</servlet-name>
+	<url-pattern>/HomThuGopY</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>GopYController</servlet-name>
+	<servlet-class>Controllers.GopYController</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>GopYController</servlet-name>
+	<url-pattern>/HomThuGopY_insert</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>QLHomThuGopYController</servlet-name>
+	<servlet-class>Controllers.QLHomThuGopYController</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>QLHomThuGopYController</servlet-name>
+	<url-pattern>/QLHomThuGopY</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>QLHomThuGopYController</servlet-name>
+	<servlet-class>Controllers.QLHomThuGopYController</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>QLHomThuGopYController</servlet-name>
+	<url-pattern>/QLHomThuGopY_delete</url-pattern>
+</servlet-mapping>
+
+<session-config>
+   <session-timeout>30</session-timeout>
+</session-config>
+
+</web-app>

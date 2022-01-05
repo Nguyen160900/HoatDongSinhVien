@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+.DMK{
+	display: flex;
+    justify-content: center;
+}
+.formDMK{
+	text-align: center;
+}
+.btn-grp{
+	text-align: center;
+}
+h3{
+	text-align: center;
+	font-size: 1.75rem;
+}
+.text-ip{
+	padding-bottom: 5px;
+    padding-top: 5px;
+}
