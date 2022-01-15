@@ -2,7 +2,7 @@
 <div style="display: flex; justify-content: center;">
     <img src="${pageContext.request.contextPath}/resource/image/logo1.png" class="rounded"> 
     <div style="margin-bottom: auto; margin-top: auto;">
-        <h1 style="font-size:5vw">SỔ TAY SINH VIÊN</h1>
+        <h1 style="font-size:5vw">HOẠT ĐỘNG SINH VIÊN</h1>
         <hr class="chanchung">
         <h1 style="font-size:5vw">KHOA CÔNG NGHỆ THÔNG TIN</h1> 
     </div>
